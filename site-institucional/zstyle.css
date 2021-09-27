@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100px;
+    background-color: yellow;
+    border: aquamarine 3px solid;
+}
+
+.container {
+    background-color: red;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    background-color: yellowgreen;
+    width: 35%;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header h1 {
+    color: aquamarine;
+
+
+}
+
+.active {
+    font-weight: bolder;
+    font-weight: lighter
+
+}
