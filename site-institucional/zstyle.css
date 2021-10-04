@@ -7,7 +7,7 @@
 .header {
     height: 100px;
     background-color: black;
-    border: aquamarine 3px solid;
+    border: solid 3px #32b9cd;
 }
 
 .container {
@@ -32,22 +32,135 @@
 }
 
 .header h1 {
-    color: aquamarine;
+    color: #32b9cd;
 }
 
 .navbar li {
     font-weight: lighter;
-}
-
-.header ul {
     color: goldenrod;
 }
 
-.navbar .activ{
+
+.navbar .active{
     font-weight: bolder;
 }
 
 .navbar li a {
     text-decoration: none;
     color: goldenrod;
+}
+
+.banner {
+    height: 500px;
+    background-image: url('https://images.vexels.com/media/users/3/111795/raw/b2f376d68da32d89a35c722115ba350e-agua-viva-ilustrada-em-verde.jpg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    color: white;
+    font-size: 40px;
+    width: 10%;
+    margin-right: 250px;
+}
+
+.message span {
+    font-weight: bolder;
+}
+
+.proposito {
+    height: 450px;
+    background-color: #e5e5e5;
+}
+
+.proposito .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito .container h2 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    color: #e6005a;
+}
+
+.proposito .container .mvv div img {
+    height: 100px;
+    width: 100px;
+}
+
+.proposito .container .mvv {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposito .container .mvv div {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.proposito .container .mvv h3 {
+    color: #e6005a;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+
+.footer {
+    background-color: #32b9cd;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color:  white;
+}
+
+.form_login {
+    background-color: white;
+    height: 350px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.banner .form_login h2 {
+    color: #e6005a;
+}
+
+.banner .form_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .form_login div span {
+    color: #e6005a;
+}
+
+.banner .form_login div input {
+    border: 2px solid #e6005a;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner .form_login button {
+    background-color: #e6005a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
 }
