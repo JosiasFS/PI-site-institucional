@@ -130,8 +130,8 @@
 
 .form_login {
     background-color: white;
-    height: 350px;
-    width: 30%;
+    height: 450px;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,6 +139,10 @@
 }
 
 .banner .form_login h2 {
+    color: #e6005a;
+}
+
+.banner .form_login h3 {
     color: #e6005a;
 }
 
@@ -163,4 +167,8 @@
     border: none;
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+.banner .form_login .e_mail {
+    width: 400px;
 }
